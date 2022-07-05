@@ -21,7 +21,7 @@ body{
     font-family:var(--secondary-font--);
     font-weight: 700;
     font-size: 26px;
-    line-height:calc(31/26);
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
@@ -33,13 +33,16 @@ body{
 .nav-list{
 font-weight: 500;
 font-size: 14px;
-line-height:calc(16/14);
+line-height: 1.14;
 letter-spacing: 0.02em;
 list-style: none;
 text-decoration: none;
 }
 .current{
     color: var(--accent-color--);
+}
+.nav-link{
+    color: var(--main-color--);
 }
 .link:hover,
 .link:focus{
@@ -51,7 +54,7 @@ text-decoration: none;
 .contacts a{
 font-weight: 500;
 font-size: 14px;
-line-height:calc(16/14);
+line-height:1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-color--);
 text-decoration: none;
@@ -69,7 +72,7 @@ text-decoration: none;
 .title{
 font-weight: 900;
 font-size: 44px;
-line-height:calc(60/44);
+line-height:1.36;
 letter-spacing: 0.06em;
 text-align: center;
 text-transform: uppercase;
@@ -79,7 +82,7 @@ background:var(--accent-color--);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 font-weight: 700;
 font-size: 16px;
-line-height: calc(30/16);
+line-height: 1.87;
 color: var(--white-color--);
 cursor: pointer;
 font-family: inherit;
@@ -94,20 +97,20 @@ background:#188CE8;
 .list-item-title{
 font-weight: 700;
 font-size: 14px;
-line-height:calc(16/14);
+line-height:1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .list-item{
 font-size: 14px;
-line-height:calc(24/14);
+line-height:1.71;
 letter-spacing: 0.03em;
 color: var(--secondary-color--);
 }
 .box-title{
 font-weight: 700;
 font-size: 36px;
-line-height:calc(42/36);
+line-height:1.16;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -120,7 +123,7 @@ list-style: none;
 .title-team-section{
     font-weight: 700;
     font-size: 36px;
-    line-height:calc(42/36);
+    line-height:1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -130,13 +133,13 @@ list-style: none;
 .team-title-item{
  font-weight: 500;
 font-size: 16px;
-line-height: calc(19/16);
+line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 }
 .tagline{
 font-size: 16px;
-line-height: calc(19/16);
+line-height:1.19;
 text-align: center;
 letter-spacing:0.03em;
 color:var(--secondary-color--);
@@ -148,7 +151,7 @@ background-color:var(--darkgrey-bcg-color--);
     font-family:var(--secondary-font--);
     font-weight: 700;
     font-size: 26px;
-    line-height:calc(31/26);
+    line-height:1.19;
     letter-spacing: 0.03em;
     color: var(--white-color--);
     text-decoration: none;
@@ -164,7 +167,7 @@ color: var(--white-color--);
 }
 .address-link{
 font-size: 14px;
-line-height: calc(24/14);
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
@@ -182,7 +185,7 @@ list-style: none;
  cursor: pointer; 
  font-weight: 500;
  font-size: 16px;
- line-height: calc(26/16);
+ line-height: 1.62;
  letter-spacing: 0.03em;
  font-family: inherit;
 }
@@ -193,17 +196,18 @@ background-color:var(--accent-color--);
 .btn-item:hover,
 .btn-item:focus{
 background: var(--accent-color--);
+color: var(--white-color--);
 }
 .portfolio-list-item{
 font-weight: 700;
 font-size: 18px;
-line-height:calc(36/18);
+line-height:2;
 letter-spacing: 0.06em;
 color:var(--main-color--);
 }
 .desc{
 font-size: 16px;
-line-height: calc(30/16);
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--secondary-color--);
 }
